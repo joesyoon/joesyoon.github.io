@@ -1,6 +1,7 @@
 html, body{
 	height:100%;	
 	margin:0;
+	font-family:futura md bt;
 }
 
 #nav table {
@@ -38,6 +39,7 @@ html, body{
 }
 
 #nav table tr td a{
+	font-family:futura lt bt;
 	color:white;
 	text-decoration:none;
 }
@@ -66,12 +68,10 @@ html, body{
 #container {
 	height:100%;
 	width:100%;
-	font-family:minimal;
 	background:url('check2.png') no-repeat;
 	background-size:cover;
 	margin:0;
 	padding:0;
-	background-color:yellow;
 }
 
 #library {
@@ -80,6 +80,7 @@ html, body{
 }
 
 #library video {
+	border:2px black solid;
 	width:100%;
 }
 
@@ -91,7 +92,7 @@ html, body{
 #library th {
 	font-size:20px;
 	padding-left:20px;
-	text-align:left;
+	text-align:center;
 	width:30%;
 }
 
