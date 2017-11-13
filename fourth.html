@@ -2,69 +2,83 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="styleExp.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		
 		<title>Experiences</title>
 		<style>
-			#nav {
-				background-color:#2e2f30;
-			}
 			#container {
 				background-image:none;
 				background-color:#f7f8f9;
-			}
-			body{
-				background-color:#f7f8f9;
-				overflow:none;
 			}
 		</style>
 	</head>
 	
 	<body>
 		<div id="container">
-			<div id="nav">
-				<table align="right">
-					<tr>
-						<th><a href="index.html"><img src="logo_revamp.png" /></a></th>
-						<td><a href="second.html">About</a></td>
-						<td><a href="third.html">Skills</a></td>
-						<td><a href="fourth.html">Experiences</a></td>
-					</tr>
-				</table>
-			</div>		
+			<nav class="navbar navbar-toggleable-sm navbar-inverse" style="background-color:#2e2f30">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggleNav">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="toggleNav">
+					<div class="navbar-nav">
+						<a class="nav-item nav-link" href="index.html">Home</a>
+						<a class="nav-item nav-link" href="second.html">About</a>
+						<a class="nav-item nav-link" href="third.html">Skills</a>
+						<a class="nav-item nav-link active" href="fourth.html">Experiences</a>
+					</div>
+				</div>
+			</nav>		
 			<div id="library">
 				<video autoplay loop>
 					<source src="parallex.mp4" type="video/mp4" />
 				</video>
-				<table>
-					<tr>
-						<th><a href="https://hsl.uw.edu/"><img src="uw.png" title="Health Sciences Library"/></a></th>
-						<td><p>I worked as a Library Assistant at the University of Washington Health Sciences Library. My job consisted of 
-						organizing and transporting books. The location of each book would be recorded in a database system, "ALMA." At times,
-						I would work Information desk; this is where I would refer people to resources for their research or answer just general questions.</p></td>
-					</tr>
-				</table>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-3" align="center">
+								<a href="https://hsl.uw.edu/"><img src="uw.png" title="Health Sciences Library"/></a>
+							</div>
+							<div class="col-md-9">
+								<p>I worked as a Library Assistant at the University of Washington Health Sciences Library. My job consisted of 
+								organizing and transporting books. The location of each book would be recorded in a database system, "ALMA." At times,
+								I would work Information desk; this is where I would refer people to resources for their research or answer just general questions.</p>
+							</div>
+						</div>
+					</div>
 				<video autoplay loop>
 					<source src="emar.mp4" type="video/mp4" />
 				</video>
-				<table>
-					<tr>
-						<th><a href="https://blogs.uw.edu/emar/"><img src="emarIcon.png" title="Project: EMAR"/></a></th>
-						<td><p>Alongside my fellow research members, I am working on creating a website for a design challenge. The design challenge
-						utilizes participatory methods to teach students HCDE components and allows them to contribute their own design ideas for 
-						the social robot. This website, while considering what attracts teens, will provide the necessary information about the design challenge. 
-						My job consists of researching about teens, contributing to the information architecture, and ensuring the deployment of the website.</p></td>
-					</tr>
-				</table>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-3" align="center">
+								<a href="https://blogs.uw.edu/emar/"><img src="emarIcon.png" title="Project: EMAR"/></a>
+							</div>
+							<div class="col-md-9">
+								<p>Alongside my fellow research members, I am working on creating a website for a design challenge. The design challenge
+								utilizes participatory methods to teach students HCDE components and allows them to contribute their own design ideas for 
+								the social robot. This website, while considering what attracts teens, will provide the necessary information about the design challenge. 
+								My job consists of researching about teens, contributing to the information architecture, and ensuring the deployment of the website.</p>
+							</div>
+						</div>
+					</div>
 				<video autoplay loop>
 					<source src="adventure.mp4" type="video/mp4" />
 				</video>
-				<table>
-					<tr>
-						<th><a href="https://outingsandadventures.com/"><img src="oa.jpg" title="Outings & Adventures"/></a></th>
-						<td><p>I create listings through Wordpress for vendors that contact the company. In addition, I make sure to take in consideration
-						of the SEO ranking of each listing. At times, I take charge of listing projects and make sure each person is on track with
-						his/her role. This internship has made me collaborative, open-minded, and more knowledgeable about web development.</p></td>
-					</tr>
-				</table>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-3" align="center">
+								<a href="https://outingsandadventures.com/"><img src="oa.jpg" title="Outings & Adventures"/></a>
+							</div>
+							<div class="col-md-9">
+								<p>I create listings through Wordpress for vendors that contact the company. In addition, I make sure to take in consideration
+								of the SEO ranking of each listing. At times, I take charge of listing projects and make sure each person is on track with
+								his/her role. Also, I contribute to researching ideas for enhancing the mobile and web user experience. 
+								This internship has made me collaborative, open-minded, and more knowledgeable about web development.</p>
+							</div>
+						</div>
+					</div>
 			</div>
 		</div>
 	</body>
