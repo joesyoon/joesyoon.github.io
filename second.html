@@ -3,7 +3,11 @@
 	<head>
 		<link rel="stylesheet" href="style.css" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<script src="https://use.fontawesome.com/b13f36407f.js"></script>
 		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/2.0.0/jquery.localScroll.min.js"></script>
+		<script src="js/smooth-scrolling.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 		<title>About</title>
@@ -30,21 +34,26 @@
 					</div>
 				</div>
 			</nav>			
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-12">
+			<div class="container-fluid" id="aboutcon">
+				<div class="row" id="ppcontainer">
+					<div class="col-md-6" id="pp">
 						<img src="wall.jpg" class="img-fluid" />
 					</div>
+					<div class="col-md-6">
+						<div class="jumbotron jumbotron-fluid">
+							<h1 class="display-3" id="info"><strong>Hello</strong>, this is Joseph Yoon</h1>
+							<p class="lead">
+										He is Korean American, currently attending the University of Washington. Constantly moving, he has lived in California, Florida, Georgia, 
+										and Washington. His technological passions consist of: programming, designing, and video editing. These various passions have motivated his intention
+										to specialize in UX design and front-end development. Aside from technology, he enjoys billiards, breakdancing, hiking, exercising, bowling, and
+										eating. If you wish to learn more about him, please take a look at his <a href="third.html">skills</a> page. Thank you!
+							</p>
+						</div>
+					</div>
 				</div>
-				<div class="row">
-					<div class="jumbotron jumbotron-fluid">
-						<h1 class="display-3"><strong>Hello</strong>, this is Joseph Yoon</h1>
-						<p class="lead">
-									He is a Korean American, currently attending the University of Washington. Constantly moving, he has lived in California, Flordia, Georgia, 
-									and Washington. His technological passions consist of: programming, designing, and video editing. These various passions have motivated his intention
-									to specialize in UX design and front-end web development. Aside from technology, he enjoys billiards, breakdancing, hiking, exercising, bowling, and
-									eating various food items. If you wish to learn more about him, please take a look at his skills page. Thank you!
-						</p>
+				<div class="row" align="center">
+					<div class="col-md-12">
+						<a href="third.html"><i class="fa fa-angle-double-right" aria-hidden="true" id="right"></i></a>
 					</div>
 				</div>
 			</div>

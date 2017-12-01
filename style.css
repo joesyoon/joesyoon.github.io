@@ -221,7 +221,7 @@ html, body{
 
 #program a {
 	text-decoration:none;
-	color:black;
+	color:#0000FF;
 }
 
 #program a:hover{
@@ -237,6 +237,16 @@ div.col-md-12 {
 	padding-left:150px !important;
 	padding-right:150px !important;
 	margin-bottom:0 !important;
+	animation: in 1s ease-in 
+}
+
+@keyframes in {
+	0% {
+		opacity:0;
+	}
+	100%{
+		opacity:1;
+	}
 }
 
 .container-fluid .row .col-md-2 img {
@@ -262,8 +272,10 @@ nav.navbar.navbar-toggleable-sm.navbar-inverse {
 	}
 }
 
-.container-fluid .row .col-md-12 img {
+#pp img {
 	position:relative;
+	width:100%;
+	height:100%;
 	animation:meSlide .5s ease-in;
 }
 
@@ -337,5 +349,33 @@ nav.navbar.navbar-toggleable-sm.navbar-inverse {
 	}
 	to{
 		opacity:1;
+	}
+}
+
+div.col-md-6 {
+	padding:0;
+}
+
+#right {
+	position:relative;
+	font-size:70px;
+	padding-top:25px;
+	animation: next 1s infinite ease-in-out;
+	color:black;
+}
+
+#right:hover {
+	color:#a9a9a9;
+}
+
+@keyframes next {
+	0%{
+		left:0px;
+	}
+	50% {
+		left:20px;
+	}
+	100% {
+		left:0px;
 	}
 }
