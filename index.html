@@ -6,42 +6,144 @@
 		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		<script src="https://use.fontawesome.com/9c8d791c8a.js"></script>
 		<title>Joseph Yoon</title>
 		<style>
-			body {
-				overflow:hidden;
-			}
 		</style>
 	</head>
 	
 	<body>
 		<div id="container">
-			<nav class="navbar navbar-toggleable-sm navbar-inverse" style="background-color: rgba(22,22,22,0.4)">
+			<nav class="navbar navbar-toggleable-sm navbar-inverse" style="background-color: #595b5b">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggleNav">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="toggleNav">
 					<div class="navbar-nav">
-						<a class="nav-item nav-link active" href="index.html">Home</a>
-						<a class="nav-item nav-link" href="second.html">About</a>
-						<a class="nav-item nav-link" href="third.html">Skills</a>
-						<a class="nav-item nav-link" href="fourth.html">Experiences</a>
+						<a class="nav-item nav-link" href="#title">Home</a>
+						<a class="nav-item nav-link" href="#about">About</a>
+						<a class="nav-item nav-link" href="#skills">Skills</a>
+						<a class="nav-item nav-link" href="#portfolio">Portfolio</a>
 					</div>
 				</div>
 			</nav>
-			<div id="title">
-				<div id="vertical-align">
+			<div class="container" id="title">
+				<div class="center">
 					<h1>JOSEPH YOON</h1>
 					<p>Programmer | Designer | Video Editor</p>
-					<div id="contact">
-						<table align="center">
-							<tr>
-								<td><a href="https://www.facebook.com/joseph.a.yoon"><img src="fb.png" title="Facebook"/></a></td>
-								<td><a href="https://www.linkedin.com/in/joseph-yoon-4618ba123/"><img src="LI.png" title="LinkedIn"/></a></td>
-								<td><img src="email.png" title="joesyoon@uw.edu"/></td>
-								<td><img src="phone.png" title="425-773-9998"/></td>
-							</tr>
-						</table>
+						<div id="contact">
+							<table align="center">
+								<tr>
+									<td><a href="https://www.facebook.com/joseph.a.yoon"><img src="fb.png" title="Facebook"/></a></td>
+									<td><a href="https://www.linkedin.com/in/joseph-yoon-4618ba123/"><img src="LI.png" title="LinkedIn"/></a></td>
+									<td><a href="mailto:joesyoon@uw.edu"><img src="email.png" title="joesyoon@uw.edu"/></a></td>
+								</tr>
+							</table>
+						</div>
+				</div>
+			</div>
+			<div class="container-fluid" id="about">
+				<div class="row">
+					<div class="col-md-4 d-flex align-items-center flex-column">
+						<img src="circle.png" />
+					</div>
+					<div class="col-md-8">
+						<div class="jumbotron jumbotron-fluid">
+							<h1 class="display-3" id="info"><strong>Hello</strong>, this is Joseph Yoon</h1>
+							<p class="lead">
+										He is Korean American, currently attending the University of Washington. Constantly moving, he has lived in California, Florida, Georgia, 
+										and Washington. His technological passions consist of: programming, designing, and video editing. These various passions have motivated his intention
+										to specialize in UX design and front-end development. Aside from technology, he enjoys billiards, breakdancing, hiking, exercising, bowling, and
+										eating. Thank you for visiting his personal website!
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid" id="skills">
+				<div class="row">
+					<div class="col-md-12 d-flex align-items-center flex-column">
+						<h2>Skills</h2>
+					</div>
+				</div>
+				<hr>
+				<div class="row">
+					<div class="col-md-4 d-flex align-items-center flex-column">
+						<i class="fa fa-desktop" aria-hidden="true"></i>
+						<h4>Programming</h4>
+						<br>
+						<h6>Java</h6>
+						<h6>JavaScript</h6>
+						<h6>HTML</h6>
+						<h6>CSS</h6>
+					</div>
+					<div class="col-md-4 d-flex align-items-center flex-column">
+						<i class="fa fa-pencil-square" aria-hidden="true"></i>
+						<h4>Designing</h4>
+						<br>
+						<h6>Adobe Photoshop</h6>
+						<h6>Adobe Illustrator</h6>
+						<h6>Cinema 4D</h6>
+						<h6>Figma</h6>
+					</div>
+					<div class="col-md-4 d-flex align-items-center flex-column">
+						<i class="fa fa-camera" aria-hidden="true"></i>
+						<h4>Video Editing</h4>
+						<br>
+						<h6>Sony Vegas Pro</h6>
+						<h6>Windows Movie Maker</h6>
+						<h6>Adobe After Effects</h6>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid" id="portfolio">
+				
+				<div class="row">
+					<div class="col-md-6 d-flex align-items-center flex-column justify-content-center">
+						<h1 id="port">Portfolio</h1>
+					</div>
+					<div class="col-md-6 d-flex align-items-center flex-column justify-content-center" id="EMAR">
+						<p class="light">I helped develop a website that would contain information on a design challenge for teens. My contributions consisted of:
+						information architecture, research on teens, user-usability testing, moodboard development, and front-end implementation with HTML and CSS. Currently,
+						I am mentoring and teaching teens about the HCDE process.</p>
+						<a href="http://depts.washington.edu/designme/"><span class="light"><strong>Click here to learn more!</strong></span></a>
+						<h1>Design Challenge</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 d-flex align-items-center flex-column justify-content-center" id="personalWeb">
+						<p class="light">You're currently looking at my personal website. I developed it from scratch with HTML, CSS, and Bootstrap. I learned these programming tools
+						from online tutorials. Hopefully, after looking at my website, you've gotten to know a little bit more about me!</p>
+						<a href="http://josephyoon.me/"><span class="light"><strong>Click here to learn more!</strong></span></a>
+						<h1>Personal Website</h1>
+					</div>
+					<div class="col-md-6 d-flex align-items-center flex-column justify-content-center" id="git">
+						<p class="light">My GitHub contains multiple self-projects that I've made with HTML and Java. Although they were good exercises, I initially made them with the intention to help people. </p>
+						<a href="https://github.com/joesyoon/"><span class="light"><strong>Click here to learn more!</strong></span></a>
+						<h1>GIT</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 d-flex align-items-center flex-column justify-content-center" id="dub">
+						<p class="light">I attended Dubhacks 2017 and worked on the design and front-end development of a website. The purpose of the website was to 
+						create a better way for immigrants to find job listings that avoid their language barriers. </p>
+						<a href="https://devpost.com/software/jobs-without-barriers#updates"><span class="light"><strong>Click here to learn more!</strong></span></a>
+						<h1>DubHacks</h1>
+					</div>
+					<div class="col-md-6 d-flex align-items-center flex-column justify-content-center" id="oa">
+						<p class="light">During my internship, I created multiple travel listings. I also worked on creating an archive of old listings to improve the effiency of
+						finding more recent listings. With my design tools, I brainstormed and created prototypes of website and mobile design ideas. </p>
+						<a href="https://outingsandadventures.com/"><span class="light"><strong>Click here to learn more!</strong></span></a>
+						<h1>Outings & Adventures</h1>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid" id="footer">
+				<div class="row">
+					<div class="col-md-12 d-flex align-items-end flex-column">
+						<u><h5>Contact</h5></u>
+						<h6>Phone: 425-773-9998</h6>
+						<h6>Email: joesyoon@uw.edu</h6>
 					</div>
 				</div>
 			</div>
