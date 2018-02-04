@@ -106,6 +106,28 @@ nav.navbar {
 	}
 }
 
+#down {
+	font-size:40px;
+	color:#595b5b;
+	animation:goDown 1s infinite ease-in-out;
+}
+
+#down:hover {
+	color:white;
+}
+
+@keyframes goDown {
+	0% {
+		transform:translateY(0);
+	}
+	50% {
+		transform:translateY(20px);
+	}
+	100% {
+		transform:translateY(0);
+	}
+}
+
 #about {
 	margin-top:50px;
 }
@@ -295,6 +317,45 @@ i.fa {
 #oa:hover h1 {
 	display:none;
 }
+
+#design {
+	height:400px;
+	background:url('design.png') no-repeat;
+	background-size:100%;
+}
+
+#design h1 {
+	color:white;
+}
+
+#design:hover .light {
+	animation:info ease-in .3s;
+	display:flex;
+}
+
+#design:hover h1 {
+	display:none;
+}
+
+#tsa {
+	height:400px;
+	background:url('tsa.jpg') no-repeat;
+	background-size:100%;
+}
+
+#tsa h1 {
+	color:white;
+}
+
+#tsa:hover .light {
+	animation:info ease-in .3s;
+	display:flex;
+}
+
+#tsa:hover h1 {
+	display:none;
+}
+
 
 .row .col-md-6 p {
 	padding-left:30px;
